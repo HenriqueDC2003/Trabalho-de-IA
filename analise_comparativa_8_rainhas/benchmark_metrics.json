@@ -1,0 +1,63 @@
+{
+    "backtracking": {
+        "find_one": {
+            "avg_time_s": 0.0013760960000126943,
+            "avg_mem_peak_kb": 0.5234375,
+            "avg_cost_nodes": 114.0,
+            "solution_example": [
+                0,
+                4,
+                7,
+                5,
+                2,
+                6,
+                1,
+                3
+            ]
+        },
+        "find_all": {
+            "avg_time_s": 0.026392438199991375,
+            "avg_mem_peak_kb": 12.0046875,
+            "avg_cost_nodes": 2057.0,
+            "solutions_count": 92
+        }
+    },
+    "hill_climbing": {
+        "find_one": {
+            "avg_time_s": 0.12068786982999996,
+            "avg_mem_peak_kb": 0.55296875,
+            "avg_cost_conflict_evals": 6276.7,
+            "success_rate": 1.0,
+            "solutions_found_count": 100,
+            "solution_example": [
+                1,
+                6,
+                2,
+                5,
+                7,
+                4,
+                0,
+                3
+            ]
+        }
+    },
+    "random_restart": {
+        "find_one": {
+            "avg_time_s": 0.005878361100004667,
+            "avg_mem_peak_kb": 0.479140625,
+            "avg_cost_attempts": 508.28,
+            "success_rate": 1.0,
+            "solutions_found_count": 100,
+            "solution_example": [
+                4,
+                1,
+                7,
+                0,
+                3,
+                6,
+                2,
+                5
+            ]
+        }
+    }
+}
